@@ -1,4 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+$primary: #a34343;
+$secondary: #e9c874;
+$cream: #fbf8dd;
+$sku-blu: #c0d6e8;

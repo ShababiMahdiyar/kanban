@@ -1,3 +1,24 @@
-<mat-toolbar>
-  <span>My Application</span>
+<mat-toolbar role="navigation" aria-label="Main navigation" class="navbar">
+  <a class="navbar-title" routerLink="/">
+    <span>Kanban</span>
+  </a>
+  <div class="navbar-menu">
+    <div class="navbar-end">
+      <a
+        class="navbar-item"
+        routerLink="/kanban"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: true }"
+      >
+        <span>Kanban</span>
+      </a>
+      <a
+        class="navbar-item"
+        routerLink="/kanban/tasks-list"
+        routerLinkActive="active"
+      >
+        List
+      </a>
+    </div>
+  </div>
 </mat-toolbar>

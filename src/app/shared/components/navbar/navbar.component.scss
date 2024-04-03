@@ -1,0 +1,25 @@
+@import "../../../../styles.scss";
+
+.navbar {
+  display: flex;
+  width: 100%;
+  background-color: $primary;
+}
+.navbar-menu {
+  margin-left: auto;
+}
+
+.navbar-title {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-item {
+  padding: 10px;
+  text-decoration: none;
+  color: $cream;
+  cursor: pointer;
+}
+.navbar-item.active {
+  color: $secondary;
+}
