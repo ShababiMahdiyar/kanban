@@ -1,1 +1,6 @@
-<p>board works!</p>
+<div class="board-container">
+  @for (item of [{name: "To-Do"},{name: "In Progress"},{name: "In
+  Review"},{name: "Archived"}]; track $index) {
+  <app-swimlane [laneName]="item.name"></app-swimlane>
+  }
+</div>

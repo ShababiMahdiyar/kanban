@@ -1,0 +1,10 @@
+.board-container {
+  width: 95%;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: repeat(3);
+  overflow-x: auto;
+  column-gap: 20px;
+  height: 80vh;
+  margin: 40px auto auto auto;
+}
